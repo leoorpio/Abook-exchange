@@ -1,0 +1,9 @@
+body{background:url(../pic/bg.PNG);}
+.page{margin-left:auto;margin-right:auto}
+.header{position:relative;}
+.logo{overflow:hidden;padding:0 0 0;}
+.login-bg{position:relative;width:400px;height:320px;overflow:hidden;float:left;padding-left:30px;}
+
+.main-footer {color: #777;position:relative;margin:15% auto;padding:7px 0 9px;border-top: 1px solid #eee;}
+
+.release-box{}

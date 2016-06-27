@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>LOGIN |ABook.com</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/add.css">
+<script src="js/bootstrap.min.js"></script>
+
+<body>
+
+<div class="container">
+	<div class="collapse navbar-collapse navbar-responsive-collapse ">
+		<a href="index_visitors.jsp"><div class="logo"><img src="pic/logo.png"></div></a>
+		
+	</div>
+	<div class="login-bg hidden-xs"><img src="pic/ai01.jpg"></div>
+		
+	<div class="row">
+		<div id="login-box" class="col-md-4 col-md-push-3">
+			<p class="text-center"><b>用户登录</b></p>
+			<form class="form-horizontal" role="form" method="POST" action="validating">
+				<div class="form-group input-group">
+					<span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+					<input type="email" class="form-control" name="email" placeholder="Email" value="">
+				</div>
+				<div class="form-group input-group">
+					<span class="input-group-addon"><i class="fa fa-key"></i></span>
+					<input type="password" class="form-control" name="password" placeholder="Password">
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label class="cr-styled remember">
+								<input type="checkbox" name="remember" value="1">
+								<i class="fa"></i>
+                                <span class="text">记住密码</span>
+							</label>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<span class="pull-right">
+							<a href="">忘记密码</a>
+						</span>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<input type="submit" value="登录" class="btn btn-sm btn-default btn-block" tabindex="3">
+				</div>
+
+				<hr>
+				<div class="form-group">
+					<a class="btn btn-sm btn-default btn-block" href="register.html">注册</a>
+				</div>
+
+			</form>
+		</div>
+	</div>
+
+<footer class="main-footer">
+	<div class="containter">
+		<div>
+					<div class="col-md-7 col-md-offset-1 col-xs-12">Our Team： Tao Jilin       Yang Chi       Yang Xu         Shi Xin       Bai Xiaochen
+					</div>
+					<div class="col-md-3 col-xs-12">联系我们：15505160000</div>
+		</div>
+	</div>
+</footer> 
+</div>
+
+</body>
+</html>

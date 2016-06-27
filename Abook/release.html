@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>RELEASE |ABook.com</title>
+</head>
+<style type="text/css">
+body{background-image:url("pic/bg.PNG");}
+</style>
+<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/add.css">
+<script src="js/bootstrap.min.js"></script>
+
+<body>
+
+<div class="container">
+	<div class="collapse navbar-collapse navbar-responsive-collapse ">
+		<div class="logo"><img src="pic/logo.png"></div>
+		
+	</div>
+		
+	<div class="row">
+		<div id="release-box" class="col-lg-8 col-md-offset-2">
+			<p class="text-center"><b>图书上传</b></p>
+			<form class="form-horizontal" role="form" method="POST" action="UploadBook.process" enctype="multipart/form-data">
+				<div class="form-group input-group">
+					<span class="input-group-addon"><b class="fa fa-envelope">书&emsp;&emsp;名:</b></span>
+					<input type="text" class="form-control" name="Name" >
+				</div>
+				<div class="form-group input-group">
+					<span class="input-group-addon"><b class="fa fa-key">作&emsp;&emsp;者:</b></span>
+					<input type="text" class="form-control" name="Author">
+				</div>
+				<div class="form-group input-group">
+					<span class="input-group-addon"><b class="fa fa-envelope">出&nbsp;&nbsp;版&nbsp;社:</b></span>
+					<input type="text" class="form-control" name="Publisher">
+				</div>
+				<div class="form-group input-group">
+					<span class="input-group-addon"><b class="fa fa-key">页&emsp;&emsp;数:</b></span>
+					<input type="text" class="form-control" name="Pages">
+				</div>
+				<div class="form-group input-group">
+					<span class="input-group-addon"><b class="fa fa-envelope">册&emsp;&emsp;数:</b></span>
+					<input type="text" class="form-control" name="Volumes">
+				</div>
+				<div class="form-group input-group">
+					<span class="input-group-addon"><b class="fa fa-key">读书感受:</b></span>
+					<textarea class="form-control" name="Review" ></textarea>
+				</div>
+				<div class="form-group input-group">
+					<span class="input-group-addon"><b class="fa fa-envelope">图&emsp;&emsp;片:</b></span>
+					<input type="file"  name="Picture">
+				</div>
+				<div class="form-group input-group">
+					<span class="input-group-addon"><b class="fa fa-key">交换方式:</b></span>
+					<input type="text" class="form-control" name="Way" >
+				</div>
+				<div class="form-group input-group">
+					<span class="input-group-addon"><b class="fa fa-key">交换地点:</b></span>
+					<input type="text" class="form-control" name="Place" >
+				</div>
+				<div class="form-group input-group">
+					<span class="input-group-addon"><b class="fa fa-key">书籍状态:</b></span>
+					<select class="form-control" name="Status">
+						<option value="Yes">我想上传后，立即发布参与交换书籍</option>
+						<option value="No">目前暂时不发布，日后再决定用于参与书籍交换</option>
+					</select>
+				</div>
+				<div class="form-group input-group">
+					<span class="input-group-addon"><b class="fa fa-key">&emsp;&emsp;ISBN:</b></span>
+					<input type="text" class="form-control" name="ISBN" >
+				</div>
+				
+
+				<div class="form-group">
+					<input type="submit" value="上传书籍" class="btn btn-md btn-default btn-block" tabindex="3">
+				</div>
+
+			</form>
+		</div>
+	</div>
+
+<footer class="main-footer">
+	<div class="containter">
+		<div>
+					<div class="col-md-7 col-md-offset-1 col-xs-12">Our Team： Tao Jilin       Yang Chi       Yang Xu         Shi Xin       Bai Xiaochen
+					</div>
+
+					<div class="col-md-3 col-xs-12">联系我们：15505160000</div>
+		</div>
+	</div>
+</footer> 
+</div>
+
+</body>
+</html>
+
+<title>Insert title here</title>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>P-Info |ABook.com</title>
+</head>
+<style type="text/css">
+body{background-image:url("pic/bg.PNG");}
+</style>
+<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/add.css">
+<script src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript" charset="UTF-8">
+
+</script>
+
+<body>
+
+<div class="container">
+	<div class="collapse navbar-collapse navbar-responsive-collapse ">
+		<div class="logo"><img src="pic/logo.png"></div>
+	</div>
+		
+	<div class="row">
+		<div id="login-box" class="col-md-4 col-md-offset-4">
+			<p class="text-center"><b>Fersonnel Information</b></p>
+			<form class="form-horizontal" role="form" method="POST" action="Varify_Register" onsubmit="return validate()">
+			<!-- 邮箱 -->
+				<div class="form-group input-group">
+					<span class="input-group-addon">&emsp;&emsp;&emsp;    <label for="email">Email:</label></span>
+					<input type="text" class="form-control" name="email" placeholder="Your Email" id="email">
+					<span id="semail"></span> 
+				</div>
+			<!-- 用户名 -->
+				<div class="form-group input-group">
+					<span class="input-group-addon">&emsp;<label for="username">Username:</label></span>
+					<input type="text" class="form-control" name="username" placeholder="Your name" id="username">
+					<span id="username"></span>
+				</div>
+			<!--用户头像-->
+				<div class="form-group input-group">				
+					&emsp;&emsp;&emsp;&emsp;<label>Face:</label>&emsp;&emsp;
+					<img src="pic/tx1.jpg" width="50px">&emsp;&emsp;
+					<button>上传</button>
+				</div>
+			<!-- 性别 -->
+				<div class="form-group input-group">				
+					&emsp;&emsp;&emsp;<label>Gender:</label>&emsp;
+					<input type="radio" name="gender" value="male" id="male"/><label for="male">男</label>&emsp;
+					<input type="radio" name="gender" value="female" id="female"/><label for="female">女</label>
+				</div>
+			<!-- 学院 -->
+				<div class="form-group input-group">				
+					&emsp;<label>Department:</label>&emsp;
+					<select name="department">
+						<option value=""></option>
+						<option value="矿业学院">矿业学院</option>
+						<option value="管理学院">管理学院</option>
+						<option value="机电学院">机电学院</option>
+						<option value="文法学院">文法学院</option>
+						<option value="外文学院">外文学院</option>
+						<option value="国际学院">国际学院</option>
+						<option value="力建学院">力建学院</option>
+						<option value="化工学院">化工学院</option>
+						<option value="体育学院">体育学院</option>
+					</select>
+				</div>
+			<!-- 年级 -->
+				<div class="form-group input-group">				
+					&emsp;&emsp;&emsp;&emsp;<label>Grade:</label>&emsp;
+					<select name="grade">
+						<option value=""></option>
+						<optgroup label="本科生">
+							<option value="大一">大学一年级</option>
+							<option value="大二">大学二年级</option>
+							<option value="大三">大学三年级</option>
+							<option value="大四">大学四年级</option>
+						</optgroup>
+						<optgroup label="研究生">
+							<option value="研一">研究生一年级</option>
+							<option value="研二">研究生二年级</option>
+							<option value="研三">研究生三年级</option>
+						</optgroup>
+					</select>
+				</div>
+			<!-- 地址 -->
+				<div class="form-group input-group">
+					<span class="input-group-addon">&emsp;&emsp;<label for="address">Address:</label></span>
+					<input type="text" class="form-control" name="address" placeholder="Please fill in your address" id="address">
+					<span id="email"></span> 
+				</div>
+			<!-- Phone Number -->
+				<div class="form-group input-group">
+					<span class="input-group-addon">&emsp;&emsp;&emsp;<label for="phone">Phone:</label></span>
+					<input type="text" class="form-control" name="phone" placeholder="Please fill in your Phone number" id="phone">
+					<span id="email"></span> 
+				</div>
+			<!-- 密码 -->
+				<div class="form-group input-group">
+					<span class="input-group-addon">&emsp; <label for="password">Password:</span>
+					<input type="password" class="form-control" name="password" placeholder="Your password" id="password">
+					<span id="password"></span>
+				</div>
+			<!-- 确认密码 -->
+				<div class="form-group input-group">
+					<span class="input-group-addon"><label for="re-password">Re-Password</label></span>
+					<input type="password" class="form-control" name="confirmed_password" placeholder="Re-Password" id="re-password">
+					<span id="confirmed_password"></span>
+				</div>
+
+				<div class="form-group">
+					<input type="submit" value="保存" class="btn btn-sm btn-default btn-block" id="submit">
+				
+				</div>
+			</form>
+		</div>
+	</div>
+
+<footer class="main-footer">
+	<div class="containter">
+		<div>
+					<div class="col-md-7 col-md-offset-1 col-xs-12">Our Team： Tao Jilin       Yang Chi       Yang Xu         Shi Xin       Bai Xiaochen
+					</div>
+
+					<div class="col-md-3 col-xs-12">联系我们：15505160000</div>
+		</div>
+	</div>
+</footer> 
+</div>
+
+</body>
+</html>

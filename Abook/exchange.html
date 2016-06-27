@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>交换详情</title>
+<!-- Bootstrap -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/site.css" rel="stylesheet">
+</head>
+<style type="text/css">
+body{background-image:url("pic/bg.PNG");}
+</style> 	
+<body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>	
+<!--导航-->
+
+        <div class="navbar navbar-default ">
+            <div class="navbar-header" navbar-fixed-top="">
+                <!-- .navbar-toggle样式用于toggle收缩的内容,即：nav-collapse collapse 样式所在的元素 -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse ">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- 确保无论是宽屏还是窄屏，navbar-brand都会显示 -->
+                <a class="navbar-brand" href="index.html"><img src="pic/logo.png" width="100px" height="35px"></a>
+            </div>
+            <!-- 屏幕宽度小于768像素时，该div内的内容默认都会隐藏（通过单击icon-bar所在的图标， 可以再展开）；大于768像素时默认显示
+            -->
+            <div class="collapse navbar-collapse navbar-responsive-collapse ">
+                <ul class="nav navbar-nav">
+                    <li class="">
+                        <a href="#">主页</a>
+                    </li>
+                    <li>
+                        <a href="#">登陆/注册</a>
+                    </li>
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+							我的ABook<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">我的书库</a></li>
+								<li><a href="#">我的交换</a></li>
+								<li><a href="#">我的信息</a></li>
+								<li><a href="#">我的消息</a></li>
+							<!--省略菜单 -->
+							</ul>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-right" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">搜索</button>
+                </form>
+            </div>
+        </div>
+
+		
+<main class="main" role="main">
+<div class="container" >
+	<div class="panel panel-success" align="center" >
+			<h2>每一次的交换，都是心灵的旅行</h2>
+		</div>
+	
+		<div class="row">
+
+
+			<div class="col-xs-12 col-md-5 " >
+				<div id="boxex">
+				<div class="row">
+						<div class="col-xs-6 col-md-6 " >
+					
+							<img src="pic/book1.jpg" class="img-rounded" width="180px" href="#">
+						</div>
+						<div class="col-xs-6 col-md-6  container" >
+							<table class="table table-hover table-responsive" align="center" >
+									<tr class="active ">
+										<td colspan="2"><h3>书籍信息</h3></td>
+									</tr>
+									<tr>
+									 	<td> <font>书籍ID：</font></td>
+									 	<td>5426587</td>
+									</tr>
+									<tr>
+										<td>书名：</td>
+										<td>捉妖记</td>
+									</tr>
+									
+									<tr>
+										<td>所有者：</td>
+										<td>username</td>
+									</tr>
+
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xs-12 col-md-2" >
+				<div  align="center" >
+					<br/><br/><br/>
+					<img src="pic/exchange.png">
+				</div>
+			</div>
+
+			<div class="col-xs-12 col-md-5 " >
+				<div id="boxex">
+				<div class="row">
+						<div class="col-xs-6 col-md-6 " >
+					
+							<img src="pic/book2.jpg" class="img-rounded" width="180px" href="#">
+						</div>
+						<div class="col-xs-6 col-md-6  container" >
+							<table class="table table-hover table-responsive" align="center">
+									<tr class="active ">
+										<td colspan="2"><h3>书籍信息</h3></td>
+									</tr>
+									<tr>
+									 	<td> <font>书籍ID：</font></td>
+									 	<td>5426587</td>
+									</tr>
+									<tr>
+										<td>书名：</td>
+										<td>书名有点难</td>
+									</tr>
+									<tr>
+										<td>所有者：</td>
+										<td>username</td>
+									</tr>
+
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+</div>
+
+
+		<div class="panel panel-warning">
+			<div class="panel-heading" align="center">交换书籍成功 	</div>
+			<div class="panel-body" align="center">
+				2015.08.01
+			</div>
+		</div>
+	
+		<div class="well ">
+			<table class="table  table-striped table-bordered" align="center">
+				<tr align="center" >
+					<td>交换时间：</td>
+					<td>2015.08.30</td>
+					<td>下午16:30</td>
+				</tr>
+				<tr align="center" >
+					<td>交换地点:</td>
+					<td>图书馆一楼</td>
+					<td>门卫大爷处		</td>
+				</tr>
+				<tr align="center">
+					<td>接头暗号：</td>
+					<td>有事您说话	</td>
+					<td>我住隔壁我姓王</td>
+				</tr>
+				
+			</table>
+		</div>
+
+</div>
+</main>
+
+
+
+
+<footer class="main-footer">
+	<div class="containter">
+		<div>
+					<div class="col-md-7 col-md-offset-1 col-xs-12">Our Team： Taojilin       Yangchi       Yangxu         Shixin       Baixiaochen
+					</div>
+
+					<div class="col-md-3 col-xs-12">联系我们：15505160000</div>
+		</div>
+	</div>
+</footer> 
+
+
+
+
+
+
+
+
+
+</body>
+</html>
